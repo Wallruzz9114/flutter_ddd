@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_ddd/src/middleware/core/value_failure.dart';
-import 'package:flutter_ddd/src/middleware/core/value_object.dart';
-import 'package:flutter_ddd/src/middleware/core/value_validator.dart';
+import 'package:flutter_ddd/src/middleware/values/value_failure.dart';
+import 'package:flutter_ddd/src/middleware/values/value_object.dart';
+import 'package:flutter_ddd/src/middleware/values/value_validator.dart';
 
 class EmailAddress extends ValueObject<String> {
   factory EmailAddress(String input) {
